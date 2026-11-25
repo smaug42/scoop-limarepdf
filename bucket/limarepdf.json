@@ -1,0 +1,25 @@
+{
+    "version": "0.14.1",
+    "description": "PDF viewer and editor",
+    "homepage": "https://github.com/smaug42/limarepdf",
+    "license": "MIT|Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/smaug42/limarepdf/releases/download/v0.14.1/limarepdf-0.14.1-windows-x86_64.zip",
+            "hash": "953cd44eae5c1a6a2138cd5ab41bf3bdf5a73afef957805272777b49567764fb",
+            "extract_dir": "limarepdf-0.14.1-windows-x86_64"
+        },
+        "arm64": {
+            "url": "https://github.com/smaug42/limarepdf/releases/download/v0.14.1/limarepdf-0.14.1-windows-arm64.zip",
+            "hash": "6872f5b315c5d54a5b6f3fb223174048acb9444ede5e1ebf4657a15581591491",
+            "extract_dir": "limarepdf-0.14.1-windows-arm64"
+        }
+    },
+    "bin": "limarepdf-cli.exe",
+    "shortcuts": [
+        [
+            "limarepdf.exe",
+            "LimarePDF"
+        ]
+    ]
+}
